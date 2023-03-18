@@ -1,7 +1,7 @@
 version: '3'
 services:
   mypy:
-    image: alpine
+    image: ubuntu
     tty: true
     volumes:
      - './code:/home/code'
