@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myalpine:
+    image: alpine
+    tty: true
+    volumes:
+     - './code:/home/code'
+     - './dsml:/home/dsml'
