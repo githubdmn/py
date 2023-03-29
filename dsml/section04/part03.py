@@ -1,4 +1,4 @@
-print('Part3 - loops')
+print("Part3 - loops")
 
 seq = [1, 2, 3, 4, 5]
 
@@ -7,7 +7,7 @@ for item in seq:
 
 i = 1
 while i < 5:
-    print('i is {}'.format(i))
+    print("i is {}".format(i))
     i = i + 1
 
 
@@ -27,23 +27,23 @@ for i in x:
     out.append(i**2)
 print(out)
 
-out_comprehension = [num ** 2 for num in x]
+out_comprehension = [num**2 for num in x]
 print(out_comprehension)
 
 
-def myName(name='Default'):
-    print('Hello {}'.format(name))
+def myName(name="Default"):
+    print("Hello {}".format(name))
 
 
-myName('John')
+myName("John")
 myName()
 
 
 def square(num):
-    '''
+    """
     This is a docstring.
     This provides info for the function.
-    '''
+    """
     return num**2
 
 
